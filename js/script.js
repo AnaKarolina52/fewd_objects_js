@@ -24,7 +24,6 @@ function Hotel(name, rooms, booked, gym,breakfast) {
     this.rooms = rooms;
     this.booked = booked;
     this.gym = gym;
-    this.breakfast = breakfast;
     this.checkAvailablity = function() {
         return this.rooms - this.booked;
     };
